@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+}
+.Logo{
+    margin-right: auto;
+    height: 125px;
+    width: 250px; }
+header {
+    display: flex;                  
+}
+.Navigation-en-haut{
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+    align-items: center;
+}
+.Navigation-en-haut a {
+    text-decoration: none;
+    color:#002244;         
+    font-weight: bold;  
+    display: block;
+}
+.Accueil, .National, .Europe, .Autres, .Reservation {
+    background-color:#ffffff; 
+    border: 2px solid #002244;
+    border-radius: 12px;    
+    padding: 10px 18px;     
+}
+.Navigation-en-haut img {
+    height: 20px;
+    width: 20px;
+}
+.Navigation-en-haut div:hover {
+    background-color: #004A8D; 
+    cursor: pointer;          
+    transform: scale(1.05);    
+    transition: 0.3s;      
+}
+.Navigation-en-haut div:hover a {
+    color: white; 
+}
+.Navigation-en-haut div:hover img {
+    filter: brightness(0) invert(1); 
+}
+.Photo-en-background
+{   background-image: url('../Images/barrierebckgd.jpg');
+    background-size: cover;     
+    background-position: center; 
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    color:#0b3156;
+}
+.Photo-en-background p{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 18px;
+}
+.Photo-en-background h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 18px;   
+}
+.texte-en-dessous-de-image 
+{   padding: 10px 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background-color: #ffffff80;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+.Infos{
+    padding: 60px 10%; 
+    text-align: center; 
+    background-color: #f9f9f9; 
+}
+.Infos h2 {
+    font-family: serif;
+    font-size: 35px;
+    color: #002244;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+.Infos p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.Bouton-destinations {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px; 
+    background-color:  #002244;
+    color: white; 
+    border: #002244 solid ;         
+    text-decoration: none; 
+    border-radius: 30px; 
+    font-weight: bold;
+    transition: 0.3s;  
+}
+.Bouton-destinations:hover{
+    background-color: #ffffff; 
+    cursor: pointer;          
+    transform: scale(1.05);    
+    color:#002244;
+}
+.Destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; 
+    padding: 50px 20px;
+    background-color: #f4f4f4; 
+}
+.Destinations h2 {  
+    width:100%; 
+    text-align: center;
+    font-family: serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #002244;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+.Destinations figure {
+    width: 30%;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.Destinations figure:hover {
+    transform: translateY(-10px);
+}
+
+.Destinations img {
+    width: 100%;
+    height: 250px;
+}
+.Destinations figcaption {
+    padding: 20px;
+    text-align: center;
+}
+.Destinations figcaption h3 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #002244;
+}
+.Destinations figcaption p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+.Pied {
+    background-color: #002244;
+    color: white;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Pied  p {
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #E59235;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.contact img {
+    width: 25px; 
+    height: 25px;
+}
+
+.contact span {
+    font-size: 15px;
+}
+
+.droits {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    font-size: 12px;
+    color: #bdc3c7;
+}
