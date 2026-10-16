@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Reservation.css">
+    <title>Réservation</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="Icons/LogoDimaTravel.png" alt="Logo Dima Travel : une lettre D stylisée avec un avion
+         et un globe, texte Dima Travel - Votre agence de voyages sur mesure" class="Logo"></a>
+         <nav class="Navigation-en-haut">
+         <div class="Accueil"><a href="index.html"><img src="Icons/iconeaccueil.png" alt="Icone de maison">Accueil</a></div>
+         <div class="Nationalbtn"><a href="Destinations.html#National"><img src="Icons/iconenational.png" alt="Icone Maroc">National</a></div>
+         <div class="Europebtn"><a href="Destinations.html#Europe"><img src="Icons/iconeeurope.png" alt="Icone europe">Europe</a></div>
+         <div class="Autresbtn"><a href="Destinations.html#Autres"><img src="Icons/iconeautre.png" alt="Icone du monde">Autres</a></div>
+         <div class="Reservation"><a href="Reservation.html"><img src="Icons/iconereservation.png" alt="Icone de calendrier">Réservation</a></div>
+         </nav>
+     </header>
+     <form action="">
+        <h2>Formulaire de Réservation</h2>
+         <p>Remplissez ce formulaire, nos conseillers vous recontacteront sous 24h.</p>
+        <div>
+        <label for="Prenom Client">Prénom:</label>
+        <input type="text" id="PrenomClient" name="Prenom" placeholder="Prenom du voyageur" required title="Le prénom est obligatoire
+         pour la réservation.">
+        </div>
+        <div>
+        <label for="Nom Client">Nom:</label>
+        <input type="text" id="NomClient" name="Nom Client" placeholder="Nom de famille"  required title="Le nom est obligatoire
+         pour la réservation.">
+        </div>
+        <div>
+        <label for="Email Client">Adresse mail:</label>
+        <input type="email" id="EmailClient" name="Email Client" placeholder="***********@gmail.com" required>
+        </div>
+         <div>
+        <label for="Numero Client">Numéro de téléphone:</label>
+        <input type="tel" id="NumeroClient" name="Numero Client" placeholder="+212 X XX XX XX XX" required title="Numéro de 
+        téléphone obligatoire pour la confirmation.">
+        </div>
+        <div>
+        <label for="Nombre voyageurs">Nombre de voyageurs:</label>
+        <input type="number" id="Nombrevoyageurs" name="Nombre voyageurs" min="1" max="10" value="1">
+        </div>
+        <div>
+        <label for="Destination">Destination:</label>
+        <select name="Destination" id="Destination">
+            <option value="Suisse">Suisse</option>
+            <option value="Italie">Italie</option>
+            <option value="Grèce">Grèce</option>
+            <option value="Marrakech">Marrakech</option>
+            <option value="Chefchaouen">Chefchaouen</option>
+            <option value="Merzouga">Merzouga</option>
+            <option value="USA">USA</option>
+            <option value="Corée du sud">Corée du sud</option>
+            <option value="Bali">Bali</option>
+        </select>
+        </div>
+        <div>
+        <label for="Date Voyage">Date de départ:</label>
+        <input type="date" id="DateVoyage" name="Date Voyage">
+        </div>
+        
+        <div>
+            <input type="submit" value="Envoyer ma demande">
+            <input type="reset" value="Effacer tout">
+        </div>
+     </form>
+     <footer class="Pied">
+            <p>Votre agence de voyage préférée pour explorer le monde.</p>
+             <div class="contact">
+                <div class="Instagram" ><img src="Icons/Instagram.png" alt="Logo Instagram"><span>@DimaTravel_Off</span></div>
+                <div class="Mail" ><img src="Icons/Email.png" alt="Logo Mail"><span>contact@dimatravel.ma</span></div>
+                <div class="Telephone"><img src="Icons/Telephone.png" alt="Icone de telephone"><span>+212 5 22 XX XX XX</span></div>
+             </div>
+             <div class="droits">
+              <p>&copy; 2026 Dima Travel. Tous droits réservés.</p>
+             </div>
+        </footer>
+    
+</body>
+</html>
